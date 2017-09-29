@@ -1,0 +1,17 @@
+.container{
+	background-color: #FDC5C9;
+	width: 1300px;
+}
+main {
+font-family: "Droid Sans", sans-serif;	
+}
+h1 {
+	font-family: "PT Serif", serif;
+	font-size: 50px;
+	color : #DA5C65;
+}
+h2 {
+	font-family: "PT Serif", serif;
+	font-size: 25px;
+	color: #DA5C65; 
+}
