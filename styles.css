@@ -1,46 +1,21 @@
-.container {
+.container{
 	background: url('file:///Applications/MAMP/htdocs/client-blog/white-leather-texture-1945.png') repeat ;
 }
-.bannerimg {
-	background: url('file:///Applications/MAMP/htdocs/client-blog/banner.jpg') no-repeat;
-	width: 100%;
-	max-height: 100%;
-	height: 200px;
-	background-position: center;
+.banner {
+	background: url('file:///Applications/MAMP/htdocs/client-blog/banner.jpg');
+	background-position: 0 ;
 }
 main {
-	font-family: "Droid Sans", sans-serif;	
-
-}
-header {
-	border-top: 2px solid #DA5C65;
-	border-bottom: 2px solid #DA5C65;
+font-family: "Droid Sans", sans-serif;	
 }
 h1 {
 	font-family: "PT Serif", serif;
-	font-size: 56px;
+	font-size: 50px;
 	color : #DA5C65;
+	text-align: center;
 }
 h2 {
 	font-family: "PT Serif", serif;
-	font-size: 30px;
+	font-size: 25px;
 	color: #DA5C65; 
-}
-h3 {
-	font-family: serif;
-	font-size:20px;
-	color: #DA5C65;
-}
-img {
-	border: 4px solid #FDC5C9;
-	display: block;
-	margin: auto;
-}
-footer {
-	font-family: "PT Serif";
-	color: #C04049;
-	display: inline-block;
-}
-.button{
-
 }
