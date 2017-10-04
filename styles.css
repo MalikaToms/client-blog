@@ -1,9 +1,10 @@
 .container{
-	background: url('file:///Applications/MAMP/htdocs/client-blog/white-leather-texture-1945.png') repeat ;
+	background: url('client-blog/white-leather-texture-1945.png') repeat ;
 }
 .banner {
-	background: url('file:///Applications/MAMP/htdocs/client-blog/banner.jpg');
-	background-position: 0 ;
+	background: url('client-blog/banner.jpg') no-repeat;
+	width: 100%;
+	height: 200px;
 }
 main {
 font-family: "Droid Sans", sans-serif;	
