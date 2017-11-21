@@ -1,32 +1,56 @@
 body {
 	background: url('images/white-leather-texture-1945.png') repeat ;
 }
+.container-fluid {
+	position: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
 .banner {
 	height: 250px;
+	width: 100%;
 }
-main {
+.main {
 	font-family: "Droid Sans", sans-serif;	
+	@media(max-width:767px;){
+		display: inline-block;
+	}
 }
-.main img {
-	width: 45%;
+.main .col img {
+	width: 50%;
 	height: 350px;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 }
 .header {
 	font-family: "PT Serif", serif;
 	color: #DA5C65;
-	display: grid;
-	position: center;
+	grid-area: center;
+	padding-top: 25px;
 	font-size: 50px;
-	h2 {
+	.sub-title {
 		font-size: 25px;
 	}
+}	
 .post{
 	display: flex;
 	flex-direction: left;
+	padding-bottom: 10px;
 }
 p {
 	border: .5px solid #fff;
+	background-color: #c2b4b4;
+	line-height: 34px;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+	transition-property: background;
 	background-color: transparent;
 }
 .button {
@@ -38,13 +62,12 @@ p {
 	padding: 8px 12px;
 	border-radius: 4px;
 }
-a:hover {
-	color: black;
-	text-decoration: none;
-}
-footer {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
+
+
+
+
+
+
+
+
 
