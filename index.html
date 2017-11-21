@@ -1,77 +1,75 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 	<title>Mila's Fashion Experience</title>
-	<link <link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Serif" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+ 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Serif" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-	<div class="container">	
-		<div class="banner"> 
-			<img src="images/banner.jpg">
+	<div class="container-fluid">	
+		<div class="banner row"> 
+			<div class="col-med-12">
+				<img src="images/banner.jpg" >
+			</div>	
 		</div>	
-			<header>
+		<div class="header">
+			<div class="title row">
 				<h1>Vision of LA Fashion</h1>
+			</div>
+			<div class="sub-title row">
 				<h2>By Malika Toms</h2>
-			</header>
-				<main>
-					<div class="text">
-						<div>
-						<p>
-						Lorem ipsum dolor sit amet, pro cu quod augue interesset, possim maiorum signiferumque per in. Ut mel fugit postulant ullamcorper. Novum albucius usu ad, cu tation eloquentiam pri. Vix esse posidonium in.
-						</p>
-						</div>
-						<div>
-						<img src="images/fashion-image-2.jpg" height="300" width="350">
-						</div>
-					</div>
-					<br>
-					<div class="text">
-						<div>
-						<p>
-						Sit in molestie verterem, choro detraxit has et, an viderer ancillae conclusionemque quo. Vim reque consul et. His ex discere civibus, velit aeterno delectus in ius. Ut admodum atomorum pro, suas mucius denique no vix, facer habemus partiendo has eu. Ei duo elit soluta nostrud, mei cu cotidieque voluptatibus comprehensam. Summo labitur comprehensam vix an, ex paulo eloquentiam usu, mei ex laudem soleat constituto. Postea liberavisse eos id, dicant facete efficiendi duo ex.
-						</p>
-						</div>
-						<div>
-						<img src="images/fashion-image-1.jpg" height="400">
-						</div>
-					</div>
-					<br>
-					<div class="text">
-						<div><p>
-						Cu vel eirmod mandamus inciderint, audiam expetenda in qui. Iusto tation id sea. Corpora consequat interpretaris ius ad. Has illum fastidii te, ne affert invidunt detraxit nec, harum quodsi intellegat ad has. Vis cu audire scriptorem, ius decore impedit consequat eu, vel habeo salutatus consectetuer ex.
-						</p>
-						</div>
-						<div>
-						<img src="images/fashion-image-3.jpg" height="300" width="350">
-						</div>
-					</div>
-					<br>
-					<div class="text">
-						<div>
-						<p>
-						Paulo errem no est, sed ad duis iisque, ne omnes tamquam eum. Ei hendrerit definitionem his, no stet quodsi tritani cum. Usu iisque abhorreant voluptatibus et. Ea mei malis nostro. Ei ius duis fabellas laboramus.
-						</p>
-						</div>
-						<div>
-						<img src="images/fashion-image-4.jpg" height="300">	
-						</div>
-					</div>
-				</main>
-				<br>
-				<footer>
-					<div>
-					<a class="button" href="#">Last Post</a>
-					</div>
-					<div>	
-					<a class="button" href="#">Comment</a>
-					</div>
-					<div>
-					<a class="button" href="#">Next Post</a>	
-					</div>
-				</footer>
+			</div>
+		</div>	
+		<!--main content-->
+		<div class="main">
+			<div class="post row">
+				<div class="col-6">
+					<p> Lorem ipsum dolor sit amet, pro cu quod augue interesset, possim maiorum signiferumque per in. Ut mel fugit postulant ullamcorper. Novum albucius usu ad, cu tation eloquentiam pri. Vix esse posidonium in.</p>
+				</div>
+				<div class="picture" col="6">
+					<img src="images/fashion-image-1.jpg">
+				</div>
+			</div>
+			<div class="post">
+				<div class="tile-is-4">
+					<p> Sit in molestie verterem, choro detraxit has et, an viderer ancillae conclusionemque quo. Vim reque consul et. His ex discere civibus, velit aeterno delectus in ius. Ut admodum atomorum pro, suas mucius denique no vix, facer habemus partiendo has eu. Ei duo elit soluta nostrud, mei cu cotidieque voluptatibus comprehensam. Summo labitur comprehensam vix an, ex paulo eloquentiam usu, mei ex laudem soleat constituto. Postea liberavisse eos id, dicant facete efficiendi duo ex.</p>
+				</div>
+				<div class="picture">
+					<img src="images/fashion-image-2.jpg">
+				</div>
+			</div>
+		<br>
+			<div class="post">
+				<div class="text">
+					<p> Cu vel eirmod mandamus inciderint, audiam expetenda in qui. Iusto tation id sea. Corpora consequat interpretaris ius ad. Has illum fastidii te, ne affert invidunt detraxit nec, harum quodsi intellegat ad has. Vis cu audire scriptorem, ius decore impedit consequat eu, vel habeo salutatus consectetuer ex.</p>
+				</div>
+				<div class="picture">
+					<img src="images/fashion-image-4.jpg" >
+				</div>
+			</div>
+		<br>
+			<div class="post">
+				<div class="text" >
+					<p> Paulo errem no est, sed ad duis iisque, ne omnes tamquam eum. Ei hendrerit definitionem his, no stet quodsi tritani cum. Usu iisque abhorreant voluptatibus et. Ea mei malis nostro. Ei ius duis fabellas laboramus.</p>
+				</div>
+				<div class="picture">
+					<img src="images/fashion-image-3.jpg">	
+				</div>
+			</div>
+		</main>
+	 	<!-- footer begins-->
+		<div class="footer">
+			<div>
+				<a class="button" href="#">Last Post</a>
+			</div>
+			<div>	
+				<a class="button" href="#">Comment</a>
+			</div>
+			<div>
+				<a class="button" href="#">Next Post</a>	
+			</div>
+		</footer>
 	</div>		
 </body>
 </html>
